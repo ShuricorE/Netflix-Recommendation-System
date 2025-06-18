@@ -35,7 +35,7 @@ Uses cosine similarity to measure relationships between:
 - Users (based on their rating patterns)
 - Movies (based on how users rate them)
 
-## � Installation & Usage
+##  Installation & Usage
 
 ### Prerequisites
 ```bash
