@@ -1,9 +1,8 @@
 # Netflix-Recommendation-System
-# Netflix Movie Recommendation System
 
 A machine learning-based movie recommendation system implementing collaborative filtering techniques to suggest personalized movie recommendations based on user ratings and viewing history.
 
-## 🎯 Features
+## Features
 
 - **Collaborative Filtering**: Implements both user-based and item-based collaborative filtering algorithms
 - **Hybrid Recommendations**: Combines multiple recommendation approaches for improved accuracy
@@ -11,7 +10,7 @@ A machine learning-based movie recommendation system implementing collaborative 
 - **Performance Evaluation**: Includes RMSE and MAE metrics to assess algorithm performance
 - **Data Processing**: Comprehensive data preprocessing and analysis using Pandas and NumPy
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Python 3.8+**
 - **Pandas** - Data manipulation and analysis
@@ -19,7 +18,7 @@ A machine learning-based movie recommendation system implementing collaborative 
 - **Scikit-learn** - Machine learning algorithms and metrics
 - **Cosine Similarity** - For calculating user and item similarities
 
-## 📊 How It Works
+##  How It Works
 
 ### 1. Data Processing
 - Loads movie ratings and metadata from CSV files
@@ -36,7 +35,7 @@ Uses cosine similarity to measure relationships between:
 - Users (based on their rating patterns)
 - Movies (based on how users rate them)
 
-## 🚀 Installation & Usage
+## � Installation & Usage
 
 ### Prerequisites
 ```bash
@@ -65,7 +64,7 @@ python3 create_sample_data.py
 python3 main.py --ratings ratings_small.csv --movies movies_small.csv --train --recommend 1
 ```
 
-## 📋 CLI Commands
+##  CLI Commands
 
 ### Basic Usage
 ```bash
@@ -93,7 +92,7 @@ Interactive commands:
 - `evaluate` - Run model evaluation
 - `quit` - Exit
 
-## 📈 Sample Output
+##  Sample Output
 
 ```
 🎬 Netflix Recommendation System
@@ -109,7 +108,7 @@ Calculating similarities...
 Similarity matrices calculated
 Training completed!
 
-🎯 Recommendations for User 1 (hybrid):
+ Recommendations for User 1 (hybrid):
 --------------------------------------------------
  1. Interstellar (2014)                    (Score: 3.844)
  2. The Godfather (1972)                   (Score: 3.705)
@@ -118,14 +117,14 @@ Training completed!
  5. Star Wars: A New Hope (1977)           (Score: 3.691)
 ```
 
-## 📊 Performance Metrics
+##  Performance Metrics
 
 The system includes evaluation metrics to assess recommendation quality:
 - **RMSE (Root Mean Square Error)**: Measures prediction accuracy
 - **MAE (Mean Absolute Error)**: Average prediction error
 - **Coverage**: Percentage of items the system can recommend
 
-## 🔧 Configuration Options
+##  Configuration Options
 
 ### Recommendation Methods
 - `user_based`: Recommends based on similar users
@@ -137,7 +136,7 @@ Your CSV files should have these columns:
 - **ratings.csv**: `userId`, `movieId`, `rating`, `timestamp`
 - **movies.csv**: `movieId`, `title`, `genres` (optional)
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 Netflix-Recommendation-System/
@@ -149,7 +148,7 @@ Netflix-Recommendation-System/
 └── README.md              # Project documentation
 ```
 
-## 🎓 Key Algorithms
+##  Key Algorithms
 
 ### User-Based Collaborative Filtering
 1. Calculate similarity between users using cosine similarity
@@ -171,7 +170,7 @@ Netflix-Recommendation-System/
 - **Software Engineering**: Modular code design and CLI development
 - **Python Programming**: Advanced use of Pandas, NumPy, and Scikit-learn
 
-## 📝 Future Enhancements
+##  Future Enhancements
 
 - [ ] Content-based filtering using movie genres
 - [ ] Deep learning approaches (Neural Collaborative Filtering)
@@ -180,15 +179,15 @@ Netflix-Recommendation-System/
 - [ ] Integration with movie databases (TMDB API)
 - [ ] Handling cold start problem for new users
 
-## 🤝 Contributing
+##  Contributing
 
 Feel free to fork this project and submit pull requests for improvements!
 
-## 📄 License
+##  License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 👤 Author
+##  Author
 
 **Nidhi Prasad**
 - Email: ndhprd03@gmail.com
